@@ -74,9 +74,13 @@ body {
   justify-content: center;
 }
 
-.roboto {
+.roboto-slab {
   font-family: "Roboto Slab", serif;
   color: rgba(32, 32, 32, 0.87);
+}
+
+.roboto {
+  font-family: "Roboto", serif;
 }
 
 .big {
@@ -176,8 +180,8 @@ body {
 
 .view-more {
   color: #1e88e5;
-  font-family: "Roboto Slab", serif;
-  font-size: 16x;
+  font-family: "Roboto", serif;
+  font-size: 16px;
   font-weight: 600;
   line-height: 19px;
   text-decoration: underline;
@@ -326,8 +330,8 @@ body {
 
 .selector-item {
   color: rgba(44, 45, 45, 0.3);
-  font-size: 15px;
-  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-family: "Roboto";
   margin-left: 7%;
   cursor: pointer;
 }
@@ -381,7 +385,7 @@ body {
 .portfolio-head-work-medium {
   margin-left: 5%;
   color: #202020;
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-size: 14px;
   margin-top: 1%;
   display: -webkit-box;
@@ -414,8 +418,8 @@ body {
   width: 50%;
   margin-left: 5%;
   color: rgba(32, 32, 32, 0.8);
-  font-family: "Roboto Slab";
-  font-size: 14px;
+  font-family: "Roboto";
+  font-size: 15px;
 }
 
 .portfolio-description-content-medium {
@@ -458,7 +462,7 @@ body {
 }
 
 .portfolio-button-content {
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -513,10 +517,11 @@ body {
 
 #services-section-description {
   color: #000000;
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-size: 22px;
   font-weight: 300;
   height: 10.5%;
+  line-height: 36px;
   justify-content: flex-start;
   -webkit-box-align: flex-end;
   -moz-box-align: flex-end;
@@ -609,10 +614,11 @@ body {
 
 .card-description-content {
   color: #131313;
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-size: 20px;
   width: 80%;
   margin-left: 10%;
+  line-height: 30px;
 }
 
 #technology-section {
@@ -690,8 +696,8 @@ body {
 
 .tech-card-description-content {
   color: #131313;
-  font-family: "Roboto Slab";
-  font-size: 15px;
+  font-family: "Roboto";
+  font-size: 16px;
   width: 80%;
   margin-left: 10%;
 }
@@ -884,7 +890,7 @@ body {
 
 .testimonial-description-content {
   color: rgba(32, 32, 32, 0.87);
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 300;
   line-height: 32px;
@@ -931,4 +937,8 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 16px;
+}
+
+.circular-image {
+  border-radius: 50%;
 }
