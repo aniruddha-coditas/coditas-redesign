@@ -1,0 +1,95 @@
+.coditas-font-blue {
+    color: #4a90e2;
+    font-size: 32px;
+}
+
+.coditas-font-gray {
+    color: #8b8b8b;
+    font-size: 32px;
+}
+
+.headings {
+    color: #5d5d5d !important;
+    font-size: 32px;
+}
+
+#landing {
+    height: 97vh;
+}
+
+#landing-main {
+    height: 100%;
+    z-index: 1;
+}
+
+.view-more {
+    
+}
+
+.fr {
+    float: right;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+#nav-bar{
+    position: absolute;
+    z-index: 1;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.landing-page-content {
+    background-color: #FBFCFD;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: -70vh;
+    border-radius: 2px;
+    padding-top: 64px;
+    padding-left: 56px;
+}
+
+.roboto {
+    font-family: 'Roboto Slab', serif;
+    color: rgba(32,32,32,0.87);
+}
+
+.big {
+    font-size: 54px;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.landing-button-primary {
+    background-color: #2979FF;
+    color:#FFFFFF;
+    border-radius: 2px;
+}
+
+.landing-button-secondary {
+    background-color: #eef3fc;
+    color: #000000;
+    border-radius: 2px;
+}
+
+#join-team {
+    margin-left: 25px;
+    margin-bottom: 64px;
+}
+
+#portfolio {
+    margin-bottom: 64px;
+}
+
+#clients-div {
+    background-color: #FBFCFD;
+    height: 30vh;
+    padding-top: 60px;
+    padding-left: 120px; 
+}

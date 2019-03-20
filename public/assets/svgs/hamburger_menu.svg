@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Coditas-Redesign-Landing-Page" transform="translate(-1368.000000, 0.000000)">
+            <g id="Header">
+                <g id="Nav">
+                    <g id="Group-8" transform="translate(1368.000000, 0.000000)">
+                        <path d="M2,0 L72,0 L72,72 L2,72 C0.8954305,72 1.3527075e-16,71.1045695 0,70 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle" fill="#2979FF"></path>
+                        <g id="130918" transform="translate(36.000000, 36.000000) scale(-1, 1) translate(-36.000000, -36.000000) translate(24.000000, 27.000000)" fill="#FFFFFF">
+                            <path d="M0.499927923,2 L15.4981396,2 C15.7741181,2 15.9980675,1.55195345 15.9980675,1 C15.9980675,0.447963425 15.7740766,0 15.4981396,0 L0.499927923,0 C0.223949424,0 0,0.44804655 0,1 C0,1.55195345 0.223990981,2 0.499927923,2 Z" id="Path"></path>
+                            <path d="M23.2481455,8 L0.749922078,8 C0.335937662,8 0,8.44804655 0,9 C0,9.55195345 0.336,10 0.749922078,10 L23.2481455,10 C23.6621299,10 23.9980675,9.55195345 23.9980675,9 C23.9980675,8.44804655 23.6621299,8 23.2481455,8 Z" id="Path"></path>
+                            <path d="M15.2727438,16 L0.72725624,16 C0.325784196,16 0,16.4480466 0,17 C0,17.5520366 0.325844649,18 0.72725624,18 L15.2727438,18 C15.6742158,18 16,17.5519534 16,17 C16.0000605,16.4479634 15.6742158,16 15.2727438,16 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

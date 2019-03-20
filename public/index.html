@@ -1,0 +1,446 @@
+<html>
+
+<head>
+    <title>Coditas</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="./css/appstyles.css">
+</head>
+
+<body onload="onLoad()">
+    <div class="flex-container" id="nav-bar">
+        <div id="logo">
+            <img src="./assets/pngs/Coditas.png" height="25" alt="logo" />
+        </div>
+        <div>
+            <img src="./assets/svgs/hamburger_menu.svg" class="pointer" alt="hmb">
+        </div>
+    </div>
+    <div id="landing" class="flex-container section">
+        <div id="landing-left-section" class="col-6 flex-container">
+            <div class="landing-card">
+                <div class="landing-card-content">
+                    <span class="roboto big">We're Building <strong>Great</strong></span><br />
+                    <span class="roboto big">Products, <strong>Fast</strong></span> <br>
+                    <span class="roboto small">With 250+ projects delivered to 200+ clients from all across the
+                        globe,<br />
+                        Coditas is an expert in providing end-to-end design and development solutions.</span>
+                    <br /> <br />
+                    <button class="btn btn-lg landing-button-primary pointer" id="portfolio">See Our Portfolio</button>
+                    <button class="btn btn-lg landing-button-secondary pointer" id="join-team">Join Our Team</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="./assets/pngs/Right-Banner Graphics.png" height="100%" width="100%" />
+        </div>
+    </div>
+    <div id="client-section" class="flex-container">
+        <div id="client-section-content">
+            <div class="section-heading flex-container">
+                <span class="section-heading-content roboto">Our Clients</span>
+                <span class="view-more">view more</span>
+            </div>
+            <div id="client-main-content" class="section-content flex-container">
+
+            </div>
+        </div>
+    </div>
+    <div id="portfolio-section" class="flex-container">
+        <div id="portfolio-section-content">
+            <div id="portfolio-section-heading" class="section-heading flex-container">
+                <span class="section-heading-content roboto">Our Portfolio</span>
+            </div>
+            <br /><br /><br />
+            <div id="portfolio-selector" class="section-selector flex-container">
+                <div class="flex-container">
+                    <span class="selector-item selected">All</span>
+                    <span class="selector-item">Web</span>
+                    <span class="selector-item">Mobile</span>
+                </div>
+                <div class="flex-container">
+                    <span class="view-more">view more</span>
+                </div>
+            </div>
+            <br /><br />
+            <div id="portfolio-main-content" class="section-content flex-container">
+                <div id="portfolio-one" class="flex-container">
+                    <div class="portfolio-head flex-container">
+                        <span class="portfolio-head-title">HDFC Retiral</span>
+                        <span class="portfolio-head-work">Frontend <i class="dot"></i> Backend <i class="dot"></i> UI/
+                            UX</span>
+                    </div>
+                    <div class="portfolio-description flex-container">
+                        <div class="portfolio-description-content">
+                            <p>Description of the product in short, what the product is what problem it solves and other
+                                things the description it self will no longer be more then four lines. This is the last
+                                line of the descriptions </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-footer flex-container">
+                        <div class="ml-5">
+                            <div class="portfolio-button">
+                                <div class="portfolio-button-content">Case Study</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="portfolio-secondary" class="flex-container">
+                    <div id="portfolio-two" class="flex-container col-6">
+                        <div class="portfolio-head flex-container">
+                            <span class="portfolio-head-title-medium">Indyfin</span>
+                            <span class="portfolio-head-work-medium">Frontend <i class="dot"></i> Backend <i
+                                    class="dot"></i>
+                                UI/
+                                UX</span>
+                        </div>
+                        <div class="portfolio-description flex-container">
+                            <div class="portfolio-description-content-medium">
+                                <p>Description of the product in short, what the product is what problem it solves and
+                                    other
+                                    things the description it self will no longer be more then four lines. This is the
+                                    last
+                                    line of the descriptions </p>
+                            </div>
+                        </div>
+                        <div class="portfolio-footer flex-container">
+                            <div class="ml-8">
+                                <div class="portfolio-button">
+                                    <div class="portfolio-button-content">Case Study</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio-sub-secondary" class="flex-container col-6">
+                        <div id="portfolio-three" class="flex-container row-6">
+                            <div class="portfolio-head-small flex-container">
+                                <span class="portfolio-head-title">Basix</span>
+                                <span class="portfolio-head-work">Frontend <i class="dot"></i> Backend <i
+                                        class="dot"></i>
+                                    UI/
+                                    UX</span>
+                            </div>
+                            <div class="portfolio-footer flex-container">
+                                <div class="ml-5">
+                                    <div class="portfolio-button">
+                                        <div class="portfolio-button-content">Case Study</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="portfolio-four" class="flex-container row-6">
+                            <div class="portfolio-head-small flex-container">
+                                <span class="portfolio-head-title">Aimactek</span>
+                                <span class="portfolio-head-work">Frontend <i class="dot"></i> Backend <i
+                                        class="dot"></i>
+                                    UI/
+                                    UX</span>
+                            </div>
+                            <div class="portfolio-footer flex-container">
+                                <div class="ml-5">
+                                    <div class="portfolio-button">
+                                        <div class="portfolio-button-content">Case Study</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services-section" class="flex-container">
+        <div id="services-section-content" class="flex-container">
+            <div id="services-section-heading" class="section-heading flex-container">
+                <span class="section-heading-content roboto">Our Services</span>
+            </div>
+            <div id="services-section-description" class="flex-container">
+                <p>
+                    We offer services pertaining to the entire software development life cycle. Engaging clients at any
+                    stage, right from conceptualization to deployment and support.
+                </p>
+            </div>
+            <div id="services-section-cards" class="flex-container">
+                <div id="card-one" class="card">
+                    <div class="card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/dummy.png" alt="thumbnail" />
+                    </div>
+                    <div class="card-title flex-container">
+                        <span class="card-title-content">Build Operate Transfer</span>
+                    </div>
+                    <div class="card-description flex-container">
+                        <span class="card-description-content">Easily build a transferable design and development team
+                            with u</span>
+                    </div>
+                </div>
+                <div id="card-two" class="card">
+                    <div class="card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/dummy.png" alt="thumbnail" />
+                    </div>
+                    <div class="card-title flex-container">
+                        <span class="card-title-content">Remote Resource Augmentation</span>
+                    </div>
+                    <div class="card-description flex-container">
+                        <span class="card-description-content">Remote resources to help contribute to your existing
+                            team...</span>
+                    </div>
+                </div>
+                <div id="card-three" class="card">
+                    <div class="card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/dummy.png" alt="thumbnail" />
+                    </div>
+                    <div class="card-title flex-container">
+                        <span class="card-title-content">Managed Solution Delivery</span>
+                    </div>
+                    <div class="card-description flex-container">
+                        <span class="card-description-content">We own the entire solution delivery for clients wanting
+                            minimal involvement...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="technology-section" class="container-flex">
+        <div id="technology-section-content" class="flex-container">
+            <div id="technology-section-heading" class="section-heading flex-container">
+                <span class="section-heading-content roboto">Our Tech Stack</span>
+            </div>
+            <div id="technology-selector" class="section-selector flex-container">
+                <div style="width: 27%;" class="flex-container">
+                    <span class="selector-item selected ml-0">Frontend</span>
+                    <span class="selector-item">Backend</span>
+                    <span class="selector-item">Dev Ops</span>
+                    <span class="selector-item">UI/UX</span>
+                </div>
+                <div class="flex-container">
+                    <span class="view-more">load more</span>
+                </div>
+            </div>
+            <div id="technology-section-cards" class="flex-container">
+                <div class="tech-card">
+                    <div class="tech-card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/html5.png" alt="thumbnail" />
+                    </div>
+                    <div class="tech-card-title flex-container">
+                        <span class="tech-card-title-content">HTML 5</span>
+                    </div>
+                    <div class="tech-card-description flex-container">
+                        <span class="tech-card-description-content">Having developed over 200+ Web Apps . We at Coditas
+                            has a
+                            strong team of highly skilled developers for your angular js needs.</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/html5.png" alt="thumbnail" />
+                    </div>
+                    <div class="tech-card-title flex-container">
+                        <span class="tech-card-title-content">Angular</span>
+                    </div>
+                    <div class="tech-card-description flex-container">
+                        <span class="tech-card-description-content">Having developed over 200+ Web Apps . We at Coditas
+                            has a
+                            strong team of highly skilled developers for your angular js needs.</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/html5.png" alt="thumbnail" />
+                    </div>
+                    <div class="tech-card-title flex-container">
+                        <span class="tech-card-title-content">React Native</span>
+                    </div>
+                    <div class="tech-card-description flex-container">
+                        <span class="tech-card-description-content">Having developed over 200+ Web Apps . We at Coditas
+                            has a
+                            strong team of highly skilled developers for your angular js needs.</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/html5.png" alt="thumbnail" />
+                    </div>
+                    <div class="tech-card-title flex-container">
+                        <span class="tech-card-title-content">Ionic</span>
+                    </div>
+                    <div class="tech-card-description flex-container">
+                        <span class="tech-card-description-content">Having developed over 200+ Web Apps . We at Coditas
+                            has a
+                            strong team of highly skilled developers for your angular js needs.</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/html5.png" alt="thumbnail" />
+                    </div>
+                    <div class="tech-card-title flex-container">
+                        <span class="tech-card-title-content">iOS Apps</span>
+                    </div>
+                    <div class="tech-card-description flex-container">
+                        <span class="tech-card-description-content">Having developed over 200+ Web Apps . We at Coditas
+                            has a
+                            strong team of highly skilled developers for your angular js needs.</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-card-image flex-container">
+                        <img class="ml-8" height="70%" src="./assets/pngs/html5.png" alt="thumbnail" />
+                    </div>
+                    <div class="tech-card-title flex-container">
+                        <span class="tech-card-title-content">Android</span>
+                    </div>
+                    <div class="tech-card-description flex-container">
+                        <span class="tech-card-description-content">Having developed over 200+ Web Apps . We at Coditas
+                            has a
+                            strong team of highly skilled developers for your angular js needs.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testimonial-section" class="flex-container">
+        <div id="testimonial-section-content" class="flex-container">
+            <div id="testimonial-slider" class="slider flex-container">
+                <div class="slide" id="slide-1">
+                    <div class="testimonial-title">
+                        <p class="testimonial-title-content roboto">Simply, The Best Team!</p>
+                    </div>
+
+                    <div class="testimonial-description">
+                        <p class="testimonial-description-content roboto">We collaborated with team Coditas to help us
+                            out with some of our internal products. Quite frankly, we were blown away by the speed and
+                            quality of the work Coditas delivered. Team was energetic and owned the product and the
+                            work! Kudos!</p>
+                    </div>
+
+                    <div class="testimonial-meta">
+                        <div class="testimonial-image">
+                            <img src="./assets/pngs/testimonial-dummy.jpg" width="15%" alt="testimonial-picture">
+                        </div>
+                        <span class="testimonial-name roboto">Julia Lambert</span>
+                        <span class="testimonial-position roboto">CEO, Lambert Inc, USA</span>
+                    </div>
+                </div>
+                <div class="slide" id="slide-2">
+                    <div class="testimonial-title">
+                        <p class="testimonial-title-content roboto">Simply, The Best Team!</p>
+                    </div>
+
+                    <div class="testimonial-description">
+                        <p class="testimonial-description-content roboto">We collaborated with team Coditas to help us
+                            out with some of our internal products. Quite frankly, we were blown away by the speed and
+                            quality of the work Coditas delivered. Team was energetic and owned the product and the
+                            work! Kudos!</p>
+                    </div>
+
+                    <div class="testimonial-meta">
+                        <div class="testimonial-image">
+                            <img src="./assets/pngs/testimonial-dummy.jpg" width="15%" alt="testimonial-picture">
+                        </div>
+                        <span class="testimonial-name roboto">Julia Lambert</span>
+                        <span class="testimonial-position roboto">CEO, Lambert Inc, USA</span>
+                    </div>
+                </div>
+                <div class="slide" id="slide-2">
+                    <div class="testimonial-title">
+                        <p class="testimonial-title-content roboto">Simply, The Best Team!</p>
+                    </div>
+
+                    <div class="testimonial-description">
+                        <p class="testimonial-description-content roboto">We collaborated with team Coditas to help us
+                            out with some of our internal products. Quite frankly, we were blown away by the speed and
+                            quality of the work Coditas delivered. Team was energetic and owned the product and the
+                            work! Kudos!</p>
+                    </div>
+
+                    <div class="testimonial-meta">
+                        <div class="testimonial-image">
+                            <img src="./assets/pngs/testimonial-dummy.jpg" width="15%" alt="testimonial-picture">
+                        </div>
+                        <span class="testimonial-name roboto">Julia Lambert</span>
+                        <span class="testimonial-position roboto">CEO, Lambert Inc, USA</span>
+                    </div>
+                </div>
+                <div class="slide" id="slide-2">
+                    <div class="testimonial-title">
+                        <p class="testimonial-title-content roboto">Simply, The Best Team!</p>
+                    </div>
+
+                    <div class="testimonial-description">
+                        <p class="testimonial-description-content roboto">We collaborated with team Coditas to help us
+                            out with some of our internal products. Quite frankly, we were blown away by the speed and
+                            quality of the work Coditas delivered. Team was energetic and owned the product and the
+                            work! Kudos!</p>
+                    </div>
+
+                    <div class="testimonial-meta">
+                        <div class="testimonial-image">
+                            <img src="./assets/pngs/testimonial-dummy.jpg" width="15%" alt="testimonial-picture">
+                        </div>
+                        <span class="testimonial-name roboto">Julia Lambert</span>
+                        <span class="testimonial-position roboto">CEO, Lambert Inc, USA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-section" class="flex-container">
+        <div id="footer-section-content" class="flex-container">
+            <div class="footer-content-partition flex-container">
+                <div id="footer-logo" class="flex-container">
+                    <p id="foot-logo" class="rubik white">CODITAS</p>
+                    <span id="rights" class="roboto white">&copy; All rights reserved</span>
+                </div>
+                <div id="footer-social" class="flex-container">
+                    <span id="rights" class="roboto white">Follow Us On:</span>
+                    <br />
+                    <div id="social-images">
+                        <span id="facebook" class="roboto white dot">F</span>
+                        <span id="linkedin" class="roboto white dot">L</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content-partition flex-container">
+                <div id="pages" class="flex-container">
+                    <div id="pages-content" class="flex-container">
+                        <p class="roboto white"><strong>Pages</strong></p>
+                        <span class="roboto white mt-2 pointer">Home</span>
+                        <span class="roboto white mt-2 pointer">Portfolio</span>
+                        <span class="roboto white mt-2 pointer">Services</span>
+                        <span class="roboto white mt-2 pointer">About Us</span>
+                        <span class="roboto white mt-2 pointer">Career</span>
+                        <span class="roboto white mt-2 pointer">Contact Us</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content-partition flex-container">
+                <div id="contact" class="flex-container">
+                    <div id="contact-content" class="flex-container">
+                        <p class="roboto white"><strong>Contact Us</strong></p>
+                        <span class="roboto white mt-2 pointer">info@coditas.com</span>
+                        <span class="roboto white mt-2 pointer">hr@coditas.com</span>
+                        <span class="roboto white mt-2 pointer">jobs@coditas.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content-partition flex-container">
+                <div id="address" class="flex-container">
+                    <div id="address-content" class="flex-container">
+                        <p class="roboto white"><strong>Address</strong></p>
+                        <span class="roboto white mt-2 pointer">301, Gaia Apex, Viman Nagar, Pune 411014</span>
+                        <div id="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.29232828031!2d73.91220296484339!3d18.56085498738554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1405f3d3b57%3A0xa0f5349bc7c5112!2sCoditas+Technologies+Private+Limited!5e0!3m2!1sen!2sin!4v1553057259847"
+                                width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
