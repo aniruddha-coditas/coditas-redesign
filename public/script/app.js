@@ -1,6 +1,6 @@
 var coditas = {};
 
-var clArray = ["./assets/pngs/google.png", "./assets/pngs/google.png", "./assets/pngs/google.png", "./assets/pngs/google.png"];
+var clArray = ["./assets/pngs/google.png", "./assets/pngs/hdfc.png", "./assets/pngs/google.png", "./assets/pngs/hdfc.png"];
 var testimonial = document.querySelector("#testimonial-slider");
 var sliderInterval = setInterval(function () { }, 3000);
 coditas.attachClients = function (clientsArray) {
@@ -37,8 +37,6 @@ coditas.changeSelected = function (event) {
 
 
 coditas.startSlider = function () {
-    var width = screen.width;
-
     var slides = document.getElementsByClassName("slide");
     var length = slides.length;
     var currentSlideIndex = Math.ceil(length / 2);
@@ -48,6 +46,7 @@ coditas.startSlider = function () {
         } else {
             currentSlideIndex++;
         }
+        var width = window.innerWidth;
         var translateX = currentSlideIndex * width;
         for (var i = 0; i < length; i++) {
             slides[i].style.transform = "translateX(-" + (translateX) + "px)"

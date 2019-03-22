@@ -84,11 +84,11 @@ body {
 }
 
 .big {
-  font-size: 54px;
+  font-size: 4vw;
 }
 
 .small {
-  font-size: 13px;
+  font-size: 1vw;
 }
 
 .landing-card-content {
@@ -121,7 +121,7 @@ body {
   color: #ffffff;
   border-radius: 2px;
   height: 53px;
-  width: 205px;
+  width: 14vw;
 }
 
 .landing-button-secondary {
@@ -129,7 +129,7 @@ body {
   color: #000000;
   border-radius: 2px;
   height: 53px;
-  width: 205px;
+  width: 14vw;
   margin-left: 16px;
 }
 
@@ -332,7 +332,7 @@ body {
   color: rgba(44, 45, 45, 0.3);
   font-size: 14px;
   font-family: "Roboto";
-  margin-left: 7%;
+  margin-left: 5%;
   cursor: pointer;
 }
 
@@ -942,3 +942,29 @@ body {
 .circular-image {
   border-radius: 50%;
 }
+
+
+@media only screen and (min-width: 800px)  and (max-width:1300px) {
+  .btn {
+    font-size: 14px;
+  }
+  .landing-card {
+    height: 40%;
+  }
+  .testimonial-meta {
+    justify-content: center;
+  }
+  .small {
+    font-size: 13px;
+  }
+  .landing-card-content {
+    margin: 8%;
+  }
+}
+
+@media only screen and (min-width:805px) and (max-width: 1150px){
+  .card-description-content {
+    font-size: 17px;
+  }
+}
+
